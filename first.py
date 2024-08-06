@@ -5,4 +5,5 @@ print(word)
 length=[]
 for i in word:
     length.append('_')
-print(f"length is {length}")
+
+print(length)

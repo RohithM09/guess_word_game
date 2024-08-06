@@ -5,4 +5,4 @@ print(word)
 length=[]
 for i in word:
     length.append('_')
-print(length)
+print(f"length is {length}")

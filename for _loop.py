@@ -7,5 +7,7 @@ while True:
            count+=1
     if count>0:
         print("letter is in word")
+        print(count)
     else:
         print("letter is not in word")
+        print(count)

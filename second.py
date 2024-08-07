@@ -14,11 +14,13 @@ while not cond:
     for i in range(0,len(word)):
         search=word[i]
         if search==letter:
+            print(lives)
             length[i]=letter
             print(length)
             count=1
     if count==0:
         lives-=1
+        print(lives)
         if lives==0:
             cond=True
             print("you lose")
